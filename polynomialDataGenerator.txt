@@ -1,0 +1,4 @@
+ polynomial basis linear model (y = WTPhi(x)+e ; e ~ N(0, a)) data generator
+          INPUT: basis number (n; ex. n=2 -> y = w0x0 +w1x1), a, w
+          OUTPUT: y
+          NOTE: there is an internal constraint: -10.0 < x < 10.0, x is uniformly distributed.
